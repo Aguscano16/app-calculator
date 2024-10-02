@@ -15,3 +15,13 @@
     "expo-env.d.ts"
   ]
 }
+
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["app/*"]
+    }
+  }
+}
+
